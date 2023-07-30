@@ -10,7 +10,7 @@ from footer import footer
 page_bg_img = '''
 <style>
 .stApp {
-background-image: url("https://images.pexels.com/photos/3709371/pexels-photo-3709371.jpeg?auto=compress&cs=tinysrgb&w=600");
+background-image: url("https://images.pexels.com/photos/7794435/pexels-photo-7794435.jpeg?auto=compress&cs=tinysrgb&w=600");
 background-size: cover;
 }
 </style>
