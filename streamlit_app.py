@@ -85,24 +85,16 @@ if __name__=="__main__":
 
     if st.button('Recommend'):
         st.write("You can also try following movies...")
-        #col1, col2, col3, col4, col5 = st.columns(5)
-        #names, posters = get_recommendation(usr_input)
         
-        #i=0
-        #for col in [col1, col2, col3, col4, col5]:
-        # #col.write(names[i])
-        # img_name = 'img'+str(i)+'.jpg'
-        # ur.urlretrieve(posters[i],img_name)
-        # image = Image.open(img_name)
-        # new_image = image.resize((150,250))
-        # col.image(new_image,  caption=names[i])
-        # i+=1
+        i=0
         caption, filteredImages = get_recommendation(usr_input)
-        #filteredImages = [] # your images here
-        #caption = [] # your caption here
         cols = cycle(st.columns(5)) 
         for idx, filteredImage in enumerate(filteredImages):
-            next(cols).image(filteredImage, width=150, caption=caption[idx])
+            img_name = 'img'+str(i)+'.jpg'
+            ur.urlretrieve(filteredImage,img_name)
+            image = Image.open(img_name)
+            nw_img = image.resize((150,200))
+            next(cols).image(nw_img, caption=caption[idx])
 
 
     
