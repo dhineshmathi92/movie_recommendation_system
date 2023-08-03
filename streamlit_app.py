@@ -76,7 +76,7 @@ if __name__=="__main__":
     
     usr_input = st.selectbox(
     'Which movie you watched recently?',
-     req_df['movie_title'].values.tolist())
+     sorted(req_df['movie_title'].values.tolist()) )
      
     import streamlit as st
     from itertools import cycle
