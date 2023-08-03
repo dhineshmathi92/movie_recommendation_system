@@ -28,7 +28,7 @@ def fetch_poster(movie_id):
      response = requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=b766d8be22c2567721dfa3dfc980d482")
      data = response.json()
      return "http://image.tmdb.org/t/p/w500/"+ data['poster_path']
- except KeyError:
+ except Exception:
      return "https://th.bing.com/th/id/R.306227404d0b1a42b2a2ab7063e24c8b?rik=3gN4UzVbTeYDMw&riu=http%3a%2f%2fl.rgbimg.com%2fcache1nToqK%2fusers%2fg%2fgr%2fgreekgod%2f600%2fmlns2We.jpg&ehk=JJGAflzTY4kH6m88udYvM7mFNZ3LeNciBquthGa9HF8%3d&risl=&pid=ImgRaw&r=0"
  
 def get_recommendation(movie):
