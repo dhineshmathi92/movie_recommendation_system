@@ -1,12 +1,12 @@
 
-
-<img src="https://play-lh.googleusercontent.com/sb30umyAPj9A4ixl4jnPJO15ET-mo4TihKOI0xwFzRbxOfZo6fozeKmAjf8Lhl3mqHY" alt="IMDB Logo" width="100"> 
 # Movie Recommendation System
+<img src="https://play-lh.googleusercontent.com/sb30umyAPj9A4ixl4jnPJO15ET-mo4TihKOI0xwFzRbxOfZo6fozeKmAjf8Lhl3mqHY" alt="IMDB Logo" width="100"> 
+https://movierecommendationsystem-5.streamlit.app/
 </img>
 
 
 
-https://movierecommendationsystem-5.streamlit.app/
+
 
 ## Overview
 The **Movie Recommendation System** is a project designed to suggest movies to users based on their preferences. It leverages machine learning techniques and data analysis to provide personalized movie recommendations. The system is user-friendly and can be utilized as a standalone application or integrated into larger platforms.
