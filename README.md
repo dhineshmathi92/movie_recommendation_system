@@ -1,6 +1,8 @@
 
 # Movie Recommendation System
 
+<img src="https://play-lh.googleusercontent.com/sb30umyAPj9A4ixl4jnPJO15ET-mo4TihKOI0xwFzRbxOfZo6fozeKmAjf8Lhl3mqHY" alt="IMDB Logo" width="100"/>
+
 https://movierecommendationsystem-5.streamlit.app/
 
 ## Overview
